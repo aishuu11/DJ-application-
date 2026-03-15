@@ -1,0 +1,30 @@
+# Build folders
+/build/
+/Builds/**/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Logs and generated outputs
+*.log
+build_log.txt
+build_zoom.txt
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# JUCE generated cache/artifacts
+JuceLibraryCode/*.o
+JuceLibraryCode/*.obj
+
+# Binary artifacts
+*.app
+*.dylib
+*.so
+*.dll
+*.exe

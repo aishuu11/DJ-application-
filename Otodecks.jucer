@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="uCk7Ib" name="Otodecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="17" companyName="DJ Software Inc" companyCopyright="2026"
+              companyWebsite="www.djsoftware.com" companyEmail="info@djsoftware.com">
+  <MAINGROUP id="ERuoiU" name="Otodecks">
+    <GROUP id="{A0B5E4F5-9B7C-4E3B-8F2D-1A3C5D7E9F0A}" name="Source">
+      <FILE id="qbmNY6" name="GlossyButtonLookAndFeel.h" compile="0" resource="0"
+            file="GlossyButtonLookAndFeel.h"/>
+      <FILE id="kQWXgF" name="GlossyButtonLookAndFeel.cpp" compile="1" resource="0"
+            file="GlossyButtonLookAndFeel.cpp"/>
+      <FILE id="HjR9Km" name="Main.cpp" compile="1" resource="0" file="Main.cpp"/>
+      <FILE id="kJh3Lp" name="MainComponent.cpp" compile="1" resource="0"
+            file="MainComponent.cpp"/>
+      <FILE id="mN4Op5" name="MainComponent.h" compile="0" resource="0" file="MainComponent.h"/>
+      <FILE id="pQr6St" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="DJAudioPlayer.cpp"/>
+      <FILE id="uVw7Xy" name="DJAudioPlayer.h" compile="0" resource="0" file="DJAudioPlayer.h"/>
+      <FILE id="zAb8Cd" name="DeckGUI.cpp" compile="1" resource="0" file="DeckGUI.cpp"/>
+      <FILE id="eF9Gh0" name="DeckGUI.h" compile="0" resource="0" file="DeckGUI.h"/>
+      <FILE id="iJk1Lm" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="PlaylistComponent.cpp"/>
+      <FILE id="nOp2Qr" name="PlaylistComponent.h" compile="0" resource="0"
+            file="PlaylistComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Otodecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Otodecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
